@@ -13,18 +13,19 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  padding: 0.5em;
+  padding: 8px;
   align-items: center;
 }
 
 .left {
   display: flex;
+  gap: 16px;
 }
 
 .right {
   margin-left: auto;
   display: flex;
-  gap: 1em;
+  gap: 16px;
   align-items: center;
 }
 
@@ -59,6 +60,7 @@ a {
 
 ul {
   list-style-type: none;
-  gap: 0.5em;
+  gap: 16px;
   display: flex;
+  padding: 0;
 }
